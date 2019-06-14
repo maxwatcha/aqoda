@@ -33,7 +33,17 @@ function getCommandsFromFileName(fileName) {
   return file
     .split('\n')
     .map(line => line.split(' '))
-    .map(([commandName, ...params]) => new Command(commandName, params))
+    .map(
+      ([commandName, ...params]) =>
+        new Command(
+          commandName,
+          params.map(param => {
+            const parsedParam = parseInt(param, 10)
+
+            return Number.isNaN(parsedParam) ? param : parsedParam
+          })
+        )
+    )
 }
 
 main()

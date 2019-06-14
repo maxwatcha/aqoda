@@ -17,7 +17,9 @@ function main() {
         const [floor, roomPerFloor] = command.params
         const hotel = { floor, roomPerFloor }
 
-        console.log(hotel)
+        console.log(
+          `Hotel created with ${floor} floor(s), ${roomPerFloor} room(s) per floor.`
+        )
         return
       default:
         return

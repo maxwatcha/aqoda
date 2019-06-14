@@ -11,7 +11,18 @@ function main() {
   const filename = 'input.txt'
   const commands = getCommandsFromFileName(filename)
 
-  console.log(commands)
+  commands.forEach(command => {
+    switch (command.name) {
+      case 'create_hotel':
+        const [floor, roomPerFloor] = command.params
+        const hotel = { floor, roomPerFloor }
+
+        console.log(hotel)
+        return
+      default:
+        return
+    }
+  })
 }
 
 function getCommandsFromFileName(fileName) {

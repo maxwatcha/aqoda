@@ -37,3 +37,17 @@ Thor, PeterParker, StephenStrange
 Thor
 PeterParker
 ```
+
+## วิธีการทำโจทย์
+
+1. เลือกภาษาที่ใช้เขียนโค้ด
+2. แปลงโค้ดในไฟล์ main.js เป็นภาษาที่เลือก
+3. ทดสอบการทำงานของโปรแกรมโดยใช้ข้อมูลนำเข้าจากไฟล์  input.txt และต้องได้ผลลัพธ์เหมือนไฟล์ ouput.txt
+
+*** มีเวลาทำ 48 ชั่วโมง เริ่มนับเวลาจากที่ได้รับโจทย์ผ่านทาง Email
+
+## สิ่งที่คาดหวัง
+
+- Code Style
+- Programming Language Proficiency
+- OOP/Functional Programming

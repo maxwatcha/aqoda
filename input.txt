@@ -11,7 +11,7 @@ book 103 TonyStark 48
 book 101 Thanos 65
 checkout 1 TonyStark
 checkout 5 TonyStark
-checkout 4 TonyStark
+checkout 6 TonyStark
 list_guest
 get_guest_in_room 203
 list_guest_by_age < 18
